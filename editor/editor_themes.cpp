@@ -1710,7 +1710,7 @@ Ref<Theme> create_editor_theme(const Ref<Theme> p_theme) {
 	theme->set_color("caret_color", "LineEdit", font_color);
 	theme->set_color("selection_color", "LineEdit", selection_color);
 	theme->set_color("clear_button_color", "LineEdit", font_color);
-	theme->set_color("clear_button_color_pressed", "LineEdit", accent_color);
+	theme->set_color("clear_button_pressed_color", "LineEdit", accent_color);
 
 	theme->set_constant("minimum_character_width", "LineEdit", 4);
 	theme->set_constant("outline_size", "LineEdit", 0);

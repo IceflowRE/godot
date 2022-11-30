@@ -880,7 +880,7 @@ void LineEdit::_notification(int p_what) {
 				Color color_icon(1, 1, 1, !is_editable() ? .5 * .9 : .9);
 				if (display_clear_icon) {
 					if (clear_button_status.press_attempt && clear_button_status.pressing_inside) {
-						color_icon = theme_cache.clear_button_color_pressed;
+						color_icon = theme_cache.clear_button_pressed_color;
 					} else {
 						color_icon = theme_cache.clear_button_color;
 					}
